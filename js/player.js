@@ -4100,9 +4100,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
   }
   handleUpdateProjectTitle(title, isDefault) {
     if (isDefault || !title) {
-      document.title = "Snail IDE - ".concat(this.props.intl.formatMessage(messages.defaultTitle));
+      document.title = "TL4K IDE - ".concat(this.props.intl.formatMessage(messages.defaultTitle));
     } else {
-      document.title = "".concat(title, " - Snail IDE");
+      document.title = "".concat(title, " - TL4K IDE");
     }
   }
   render() {
