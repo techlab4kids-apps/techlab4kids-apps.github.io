@@ -1,13 +1,13 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-hide-flyout"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/hide-flyout/style.css":
-/*!***************************************************************************!*\
-  !*** ./node_modules/css-loader!./src/addons/addons/hide-flyout/style.css ***!
-  \***************************************************************************/
+/***/ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/hide-flyout/style.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader!./src/addons/addons/hide-flyout/style.css ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -19,10 +19,10 @@ exports.push([module.i, "[class*=\"gui_tabs_\"] {\n  /* overridden by other addo
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg ***!
-  \**************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -32,10 +32,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg ***!
-  \****************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg ***!
+  \*************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -56,10 +56,10 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
 /* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/hide-flyout/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/hide-flyout/style.css");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/hide-flyout/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_lock_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./lock.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg");
-/* harmony import */ var _url_loader_unlock_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./unlock.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg");
+/* harmony import */ var _url_loader_lock_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./lock.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/lock.svg");
+/* harmony import */ var _url_loader_unlock_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./unlock.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/hide-flyout/unlock.svg");
 /* generated by pull.js */
 
 
@@ -83,11 +83,11 @@ const resources = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return typeof key === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (typeof input !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (typeof res !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == typeof i ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != typeof i) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 /* harmony default export */ __webpack_exports__["default"] = (async function (_ref) {
   let {
     addon,
@@ -133,7 +133,6 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
     lockButton.title = flyoutLock ? msg("unlock") : msg("lock");
     lockIcon.src = addon.self.getResource("/".concat(flyoutLock ? "" : "un", "lock.svg")) /* rewritten by pull.js */;
   }
-
   function onmouseenter(e) {
     let speed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     // If a mouse event was passed, only open flyout if the workspace isn't being dragged
@@ -149,7 +148,6 @@ function _toPrimitive(input, hint) { if (typeof input !== "object" || input === 
     }
     closeOnMouseUp = false; // only close if the mouseup event happens outside the flyout
   }
-
   function onmouseleave(e) {
     let speed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : getSpeedValue();
     if (flyoutLock) return;

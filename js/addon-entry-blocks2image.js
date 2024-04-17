@@ -175,7 +175,6 @@ __webpack_require__.r(__webpack_exports__);
       yArr.push(y * (isExportPNG ? 2 : 1));
       g.style.display = ""; // because of TW scratch-blocks changes
     });
-
     svgchild.setAttribute("transform", "translate(".concat(-Math.min(...xArr), ",").concat(-Math.min(...yArr) + 18 * (isExportPNG ? 2 : 1), ") ").concat(isExportPNG ? "scale(2)" : ""));
     setCSSVars(svg);
     svg.append(makeStyle());

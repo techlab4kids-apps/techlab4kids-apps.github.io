@@ -1,14 +1,14 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-block-palette-icons"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/css-loader!./src/addons/addons/block-palette-icons/userstyle.css ***!
-  \***************************************************************************************/
+/***/ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader!./src/addons/addons/block-palette-icons/userstyle.css ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/url/escape.js */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -20,10 +20,10 @@ exports.push([module.i, ".scratchCategoryItemBubble {\n  position: relative;\n}\
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -33,10 +33,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -46,10 +46,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -59,10 +59,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg":
-/*!*********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg ***!
-  \*********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72,10 +72,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -85,10 +85,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -98,10 +98,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -111,10 +111,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -124,10 +124,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -137,10 +137,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg":
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg ***!
-  \**************************************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -160,18 +160,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
-/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css");
+/* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! css-loader!./userstyle.css */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/block-palette-icons/userstyle.css");
 /* harmony import */ var _css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_userstyle_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _url_loader_icons_block_icon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icons/block_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg");
-/* harmony import */ var _url_loader_icons_control_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/control_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg");
-/* harmony import */ var _url_loader_icons_events_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/events_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg");
-/* harmony import */ var _url_loader_icons_list_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/list_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg");
-/* harmony import */ var _url_loader_icons_looks_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/looks_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg");
-/* harmony import */ var _url_loader_icons_motion_icon_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/motion_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg");
-/* harmony import */ var _url_loader_icons_operators_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/operators_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg");
-/* harmony import */ var _url_loader_icons_sensing_icon_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/sensing_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg");
-/* harmony import */ var _url_loader_icons_sound_icon_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/sound_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg");
-/* harmony import */ var _url_loader_icons_variables_icon_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/variables_icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg");
+/* harmony import */ var _url_loader_icons_block_icon_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! url-loader!./icons/block_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/block_icon.svg");
+/* harmony import */ var _url_loader_icons_control_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icons/control_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/control_icon.svg");
+/* harmony import */ var _url_loader_icons_events_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./icons/events_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/events_icon.svg");
+/* harmony import */ var _url_loader_icons_list_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! url-loader!./icons/list_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/list_icon.svg");
+/* harmony import */ var _url_loader_icons_looks_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! url-loader!./icons/looks_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/looks_icon.svg");
+/* harmony import */ var _url_loader_icons_motion_icon_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! url-loader!./icons/motion_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/motion_icon.svg");
+/* harmony import */ var _url_loader_icons_operators_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! url-loader!./icons/operators_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/operators_icon.svg");
+/* harmony import */ var _url_loader_icons_sensing_icon_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! url-loader!./icons/sensing_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sensing_icon.svg");
+/* harmony import */ var _url_loader_icons_sound_icon_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! url-loader!./icons/sound_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/sound_icon.svg");
+/* harmony import */ var _url_loader_icons_variables_icon_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! url-loader!./icons/variables_icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/block-palette-icons/icons/variables_icon.svg");
 /* generated by pull.js */
 
 

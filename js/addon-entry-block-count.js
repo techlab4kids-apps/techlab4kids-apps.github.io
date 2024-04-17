@@ -43,14 +43,12 @@ __webpack_require__.r(__webpack_exports__);
       scriptCount += Object.values(sprite).filter(o => !o.parent).length; // Filter blocks that don't have a parent (meaning it's the top of a stack)
       blockCount += Object.values(sprite).filter(o => !o.shadow).length; // shadow blocks should be filtered out
     });
-
     return {
       blockCount,
       scriptCount,
       spriteCount: sprites.size - 1 // Backdrop counts as a target so we can subtract it
     };
   };
-
   const addLiveBlockCount = async () => {
     if (vm.editingTarget) {
       let handler = null;

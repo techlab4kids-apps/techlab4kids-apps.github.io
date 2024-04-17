@@ -81,15 +81,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./node_modules/.pnpm/babel-loader@8.2.2_@babel+core@7.14.8_webpack@4.46.0/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--5!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js ***!
-  \***********************************************************************************************************************************/
+/***/ "./node_modules/.pnpm/babel-loader@8.2.2_@babel+core@7.14.8_webpack@4.46.0/node_modules/babel-loader/lib/index.js?!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/babel-loader@8.2.2_@babel+core@7.14.8_webpack@4.46.0/node_modules/babel-loader/lib??ref--5!./node_modules/scratch-vm/src/extension-support/tw-iframe-extension-worker-entry.js ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -117,14 +117,45 @@ window.parent.postMessage({
   vmIframeId: id,
   ready: true
 }, '*');
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js */ "./node_modules/.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/format-message-formats/index.js":
-/*!******************************************************!*\
-  !*** ./node_modules/format-message-formats/index.js ***!
-  \******************************************************/
+/***/ "./node_modules/.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/format-message-formats/index.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -325,19 +356,19 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/format-message-interpret/index.js":
-/*!********************************************************!*\
-  !*** ./node_modules/format-message-interpret/index.js ***!
-  \********************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/format-message-interpret/index.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/format-message-interpret/index.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // @flow
 
-var formats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
-var plurals = __webpack_require__(/*! ./plurals */ "./node_modules/format-message-interpret/plurals.js")
+var formats = __webpack_require__(/*! format-message-formats */ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js")
+var plurals = __webpack_require__(/*! ./plurals */ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js")
 
 /*::
 import type {
@@ -540,10 +571,10 @@ exports.types = defaults
 
 /***/ }),
 
-/***/ "./node_modules/format-message-interpret/plurals.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/format-message-interpret/plurals.js ***!
-  \**********************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1111,10 +1142,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/format-message-parse/index.js":
-/*!****************************************************!*\
-  !*** ./node_modules/format-message-parse/index.js ***!
-  \****************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/format-message-parse/index.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/format-message-parse/index.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1567,21 +1598,21 @@ exports.SyntaxError = SyntaxError
 
 /***/ }),
 
-/***/ "./node_modules/format-message/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/format-message/index.js ***!
-  \**********************************************/
+/***/ "./node_modules/scratch-vm/node_modules/format-message/index.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/format-message/index.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // @flow
 
-var parse = __webpack_require__(/*! format-message-parse */ "./node_modules/format-message-parse/index.js")
-var interpret = __webpack_require__(/*! format-message-interpret */ "./node_modules/format-message-interpret/index.js")
-var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "./node_modules/format-message-interpret/plurals.js")
-var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/lookup-closest-locale/index.js")
-var origFormats = __webpack_require__(/*! format-message-formats */ "./node_modules/format-message-formats/index.js")
+var parse = __webpack_require__(/*! format-message-parse */ "./node_modules/scratch-vm/node_modules/format-message-parse/index.js")
+var interpret = __webpack_require__(/*! format-message-interpret */ "./node_modules/scratch-vm/node_modules/format-message-interpret/index.js")
+var plurals = __webpack_require__(/*! format-message-interpret/plurals */ "./node_modules/scratch-vm/node_modules/format-message-interpret/plurals.js")
+var lookupClosestLocale = __webpack_require__(/*! lookup-closest-locale */ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js")
+var origFormats = __webpack_require__(/*! format-message-formats */ "./node_modules/scratch-vm/node_modules/format-message-formats/index.js")
 
 /*::
 import type { Types } from 'format-message-interpret'
@@ -1804,10 +1835,10 @@ module.exports = exports = namespace()
 
 /***/ }),
 
-/***/ "./node_modules/lookup-closest-locale/index.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/lookup-closest-locale/index.js ***!
-  \*****************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/lookup-closest-locale/index.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1830,10 +1861,10 @@ module.exports = function lookupClosestLocale (locale/*: string | string[] | voi
 
 /***/ }),
 
-/***/ "./node_modules/microee/index.js":
-/*!***************************************!*\
-  !*** ./node_modules/microee/index.js ***!
-  \***************************************/
+/***/ "./node_modules/scratch-vm/node_modules/microee/index.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/microee/index.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1891,15 +1922,15 @@ module.exports = M;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/filter.js":
-/*!***************************************************!*\
-  !*** ./node_modules/minilog/lib/common/filter.js ***!
-  \***************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/common/filter.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/common/filter.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // default filter
-var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js");
 
 var levelMap = { debug: 1, info: 2, warn: 3, error: 4 };
 
@@ -1958,15 +1989,15 @@ module.exports = Filter;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/minilog.js":
-/*!****************************************************!*\
-  !*** ./node_modules/minilog/lib/common/minilog.js ***!
-  \****************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/common/minilog.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/common/minilog.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    Filter = __webpack_require__(/*! ./filter.js */ "./node_modules/minilog/lib/common/filter.js");
+var Transform = __webpack_require__(/*! ./transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js"),
+    Filter = __webpack_require__(/*! ./filter.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/filter.js");
 
 var log = new Transform(),
     slice = Array.prototype.slice;
@@ -2014,14 +2045,14 @@ exports.enable = function() {
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/common/transform.js":
-/*!******************************************************!*\
-  !*** ./node_modules/minilog/lib/common/transform.js ***!
-  \******************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var microee = __webpack_require__(/*! microee */ "./node_modules/microee/index.js");
+var microee = __webpack_require__(/*! microee */ "./node_modules/scratch-vm/node_modules/microee/index.js");
 
 // Implements a subset of Node's stream.Transform - in a cross-platform manner.
 function Transform() {}
@@ -2097,14 +2128,14 @@ module.exports = Transform;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/array.js":
-/*!***********************************************!*\
-  !*** ./node_modules/minilog/lib/web/array.js ***!
-  \***********************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/array.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/array.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js"),
     cache = [ ];
 
 var logger = new Transform();
@@ -2122,14 +2153,14 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/console.js":
-/*!*************************************************!*\
-  !*** ./node_modules/minilog/lib/web/console.js ***!
-  \*************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/console.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/console.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js");
 
 var newlines = /\n+$/,
     logger = new Transform();
@@ -2157,23 +2188,23 @@ logger.write = function(name, level, args) {
 };
 
 logger.formatters = ['color', 'minilog'];
-logger.color = __webpack_require__(/*! ./formatters/color.js */ "./node_modules/minilog/lib/web/formatters/color.js");
-logger.minilog = __webpack_require__(/*! ./formatters/minilog.js */ "./node_modules/minilog/lib/web/formatters/minilog.js");
+logger.color = __webpack_require__(/*! ./formatters/color.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/color.js");
+logger.minilog = __webpack_require__(/*! ./formatters/minilog.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/minilog.js");
 
 module.exports = logger;
 
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/color.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/minilog/lib/web/formatters/color.js ***!
-  \**********************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/color.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/color.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    color = __webpack_require__(/*! ./util.js */ "./node_modules/minilog/lib/web/formatters/util.js");
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/util.js");
 
 var colors = { debug: ['cyan'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
     logger = new Transform();
@@ -2194,15 +2225,15 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/minilog.js":
-/*!************************************************************!*\
-  !*** ./node_modules/minilog/lib/web/formatters/minilog.js ***!
-  \************************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/minilog.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/minilog.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
-    color = __webpack_require__(/*! ./util.js */ "./node_modules/minilog/lib/web/formatters/util.js"),
+var Transform = __webpack_require__(/*! ../../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js"),
+    color = __webpack_require__(/*! ./util.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/util.js"),
     colors = { debug: ['gray'], info: ['purple' ], warn: [ 'yellow', true ], error: [ 'red', true ] },
     logger = new Transform();
 
@@ -2231,10 +2262,10 @@ module.exports = logger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/formatters/util.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/minilog/lib/web/formatters/util.js ***!
-  \*********************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/util.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/formatters/util.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2262,19 +2293,19 @@ module.exports = color;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/minilog/lib/web/index.js ***!
-  \***********************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/index.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/index.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Minilog = __webpack_require__(/*! ../common/minilog.js */ "./node_modules/minilog/lib/common/minilog.js");
+var Minilog = __webpack_require__(/*! ../common/minilog.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/minilog.js");
 
 var oldEnable = Minilog.enable,
     oldDisable = Minilog.disable,
     isChrome = (typeof navigator != 'undefined' && /chrome/i.test(navigator.userAgent)),
-    console = __webpack_require__(/*! ./console.js */ "./node_modules/minilog/lib/web/console.js");
+    console = __webpack_require__(/*! ./console.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/console.js");
 
 // Use a more capable logging backend if on Chrome
 Minilog.defaultBackend = (isChrome ? console.minilog : console);
@@ -2306,23 +2337,23 @@ Minilog.disable = function() {
 exports = module.exports = Minilog;
 
 exports.backends = {
-  array: __webpack_require__(/*! ./array.js */ "./node_modules/minilog/lib/web/array.js"),
+  array: __webpack_require__(/*! ./array.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/array.js"),
   browser: Minilog.defaultBackend,
-  localStorage: __webpack_require__(/*! ./localstorage.js */ "./node_modules/minilog/lib/web/localstorage.js"),
-  jQuery: __webpack_require__(/*! ./jquery_simple.js */ "./node_modules/minilog/lib/web/jquery_simple.js")
+  localStorage: __webpack_require__(/*! ./localstorage.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/localstorage.js"),
+  jQuery: __webpack_require__(/*! ./jquery_simple.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/jquery_simple.js")
 };
 
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/jquery_simple.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/minilog/lib/web/jquery_simple.js ***!
-  \*******************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/jquery_simple.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/jquery_simple.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js");
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js");
 
 var cid = new Date().valueOf().toString(36);
 
@@ -2400,14 +2431,14 @@ module.exports = AjaxLogger;
 
 /***/ }),
 
-/***/ "./node_modules/minilog/lib/web/localstorage.js":
-/*!******************************************************!*\
-  !*** ./node_modules/minilog/lib/web/localstorage.js ***!
-  \******************************************************/
+/***/ "./node_modules/scratch-vm/node_modules/minilog/lib/web/localstorage.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/scratch-vm/node_modules/minilog/lib/web/localstorage.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/minilog/lib/common/transform.js"),
+var Transform = __webpack_require__(/*! ../common/transform.js */ "./node_modules/scratch-vm/node_modules/minilog/lib/common/transform.js"),
     cache = false;
 
 var logger = new Transform();
@@ -3048,7 +3079,7 @@ global.Scratch.extensions = {
   register: extensionWorker.register.bind(extensionWorker)
 };
 global.ScratchExtensions = __webpack_require__(/*! ./tw-scratchx-compatibility-layer */ "./node_modules/scratch-vm/src/extension-support/tw-scratchx-compatibility-layer.js");
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js */ "./node_modules/.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -3223,7 +3254,7 @@ jQuery.ajax = async (arg1, arg2) => {
   }
 };
 module.exports = jQuery;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js */ "./node_modules/.pnpm/webpack@4.46.0_webpack-cli@3.3.12/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -3234,7 +3265,7 @@ module.exports = jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const formatMessage = __webpack_require__(/*! format-message */ "./node_modules/format-message/index.js");
+const formatMessage = __webpack_require__(/*! format-message */ "./node_modules/scratch-vm/node_modules/format-message/index.js");
 
 /**
  * @param {VM|null} vm
@@ -4052,40 +4083,9 @@ module.exports = Color;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const minilog = __webpack_require__(/*! minilog */ "./node_modules/minilog/lib/web/index.js");
+const minilog = __webpack_require__(/*! minilog */ "./node_modules/scratch-vm/node_modules/minilog/lib/web/index.js");
 minilog.enable();
 module.exports = minilog('vm');
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
 
 /***/ })
 

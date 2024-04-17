@@ -1,14 +1,14 @@
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([["addon-entry-variable-manager"],{
 
-/***/ "./node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css":
-/*!********************************************************************************!*\
-  !*** ./node_modules/css-loader!./src/addons/addons/variable-manager/style.css ***!
-  \********************************************************************************/
+/***/ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader!./src/addons/addons/variable-manager/style.css ***!
+  \***********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/url/escape.js */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -20,10 +20,10 @@ exports.push([module.i, "/* Change z-indexes to allow more than 3 tabs */\n[clas
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -33,10 +33,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg ***!
-  \*********************************************************************************************/
+/***/ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -57,10 +57,10 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resources", function() { return resources; });
 /* harmony import */ var _userscript_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userscript.js */ "./src/addons/addons/variable-manager/userscript.js");
-/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css");
+/* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! css-loader!./style.css */ "./node_modules/.pnpm/css-loader@1.0.1_webpack@4.46.0/node_modules/css-loader/index.js!./src/addons/addons/variable-manager/style.css");
 /* harmony import */ var _css_loader_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _url_loader_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icon.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg");
-/* harmony import */ var _url_loader_search_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./search.svg */ "./node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg");
+/* harmony import */ var _url_loader_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! url-loader!./icon.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/icon.svg");
+/* harmony import */ var _url_loader_search_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! url-loader!./search.svg */ "./node_modules/.pnpm/url-loader@4.1.1_file-loader@2.0.0_webpack@4.46.0/node_modules/url-loader/dist/cjs.js!./src/addons/addons/variable-manager/search.svg");
 /* generated by pull.js */
 
 
@@ -148,7 +148,6 @@ __webpack_require__.r(__webpack_exports__);
   const varTabIcon = document.createElement("img");
   varTabIcon.draggable = false;
   varTabIcon.src = addon.self.getResource("/icon.svg") /* rewritten by pull.js */;
-
   const varTabText = document.createElement("span");
   varTabText.innerText = msg("variables");
   varTab.appendChild(varTabIcon);
@@ -209,7 +208,6 @@ __webpack_require__.r(__webpack_exports__);
         this.row.style.display = "none"; // set the entire row as hidden
       }
     }
-
     resizeInputIfList() {
       if (this.scratchVariable.type === "list") {
         this.input.style.height = "auto";
