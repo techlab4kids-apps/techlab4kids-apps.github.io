@@ -35485,6 +35485,14 @@ const menuItems = [
   description: 'TechLAB4Kids Agrumino (byLifely)',
   featured: true
 }, {
+  name: 'TL4k Iot Grove Led Stick',
+  extensionId: 'techLAB4KidsLedStick',
+  iconURL: _techlab4kids_techlab4kids_sfondo_mqtt_png__WEBPACK_IMPORTED_MODULE_72___default.a,
+  insetIconURL: _techlab4kids_LifelyLogo_png__WEBPACK_IMPORTED_MODULE_75___default.a,
+  tags: ['tl4kmod'],
+  description: 'TechLAB4Kids Iot Grove Led Stick',
+  featured: true
+}, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Music",
     id: "gui.extension.music.name"
